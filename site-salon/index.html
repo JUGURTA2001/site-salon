@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salon L'Élégance | Coiffeur & Barbier à Béjaïa Ville</title>
+  
+  <!-- SEO & Référencement -->
+  <meta name="description" content="Salon de coiffure & barbier de référence à Béjaïa Ville. Coupe homme, taille de barbe, coloration et soins profonds. Prenez rendez-vous rapidement au 0550 00 00 00.">
+  <meta name="keywords" content="coiffeur Béjaïa, salon de coiffure Béjaïa ville, barbier Béjaïa, coupe homme Béjaïa, coloration Béjaïa, coiffeur Oran, soins capillaires Algérie">
+  <meta name="author" content="Salon L'Élégance Béjaïa">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph / Réseaux Sociaux -->
+  <meta property="og:title" content="Salon L'Élégance | Coiffeur d'Exception à Béjaïa Ville">
+  <meta property="og:description" content="Découvrez nos prestations de coiffure, barbier et coloration haut de gamme au cœur de Béjaïa.">
+  <meta property="og:image" content="images/logo.png">
+  <meta property="og:type" content="website">
+
+  <!-- Feuille de styles externe -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<body>
+
+  <!-- 1. En-tête avec logo et navigation -->
+  <header class="header">
+    <div class="header-container">
+      <a href="#accueil" class="logo-link">
+        <img src="images/logo.png" alt="Logo Salon L'Élégance Béjaïa" class="logo">
+      </a>
+      
+      <!-- Bouton Menu Mobile (Burger) -->
+      <button class="menu-toggle" id="menuToggle" aria-label="Ouvrir le menu de navigation">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <!-- Navigation principale -->
+      <nav class="nav-menu" id="navMenu">
+        <ul>
+          <li><a href="#accueil" class="nav-link">Accueil</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#galerie" class="nav-link">Galerie</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li class="nav-cta-item">
+            <a href="https://wa.me/213550000000?text=Bonjour%2C%20je%20souhaite%20prendre%20un%20rendez-vous%20au%20Salon%20L'Élégance" class="btn btn-gold btn-sm" target="_blank" rel="noopener noreferrer">
+              Prendre RDV
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 2. Section Accueil (Hero) -->
+  <section id="accueil" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <span class="hero-badge">Salon & Barbier Haut de Gamme • Béjaïa Ville</span>
+      <h1 class="hero-title">L'Art de la Coiffure & du Style Masculin</h1>
+      <p class="hero-subtitle">
+        Offrez-vous une expérience sur-mesure dans un cadre chaleureux et raffiné. Coupes précises, rasage traditionnel et soins haut de gamme.
+      </p>
+      <div class="hero-buttons">
+        <a href="https://wa.me/213550000000?text=Bonjour%2C%20je%20souhaite%20prendre%20un%20rendez-vous%20au%20Salon%20L'Élégance" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 14.99 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M9.11 7.27C8.94 7.27 8.66 7.33 8.42 7.6C8.17 7.86 7.5 8.5 7.5 9.77C7.5 11.04 8.43 12.27 8.56 12.44C8.69 12.61 10.34 15.28 12.94 16.31C15.11 17.16 15.55 16.99 16.02 16.95C16.49 16.9 17.5 16.33 17.71 15.74C17.92 15.15 17.92 14.64 17.86 14.53C17.8 14.43 17.63 14.37 17.37 14.25C17.12 14.12 15.89 13.51 15.66 13.43C15.43 13.34 15.26 13.3 15.1 13.55C14.93 13.8 14.47 14.37 14.33 14.53C14.19 14.69 14.05 14.71 13.8 14.59C13.55 14.46 12.75 14.2 11.8 13.35C11.06 12.69 10.56 11.87 10.42 11.62C10.28 11.37 10.41 11.23 10.53 11.11C10.64 11 10.78 10.82 10.92 10.66C11.06 10.5 11.11 10.38 11.2 10.21C11.29 10.04 11.24 9.9 11.18 9.77C11.12 9.65 10.62 8.42 10.41 7.91C10.2 7.42 10 7.49 9.84 7.48C9.7 7.47 9.53 7.47 9.36 7.47L9.11 7.27Z"/>
+          </svg>
+          Réserver via WhatsApp
+        </a>
+        <a href="#services" class="btn btn-outline">
+          Voir nos tarifs
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Section Services (4 cartes) -->
+  <section id="services" class="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Prestations & Savoir-faire</span>
+        <h2 class="section-title">Nos Services & Tarifs</h2>
+        <div class="section-divider"></div>
+        <p class="section-desc">Des prestations soignées réalisées avec des produits professionnels de haute qualité.</p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Carte 1 -->
+        <article class="service-card">
+          <div class="service-card-header">
+            <span class="service-icon">✂️</span>
+            <span class="service-price">1 200 DA</span>
+          </div>
+          <h3 class="service-name">Coupe & Coiffage Homme</h3>
+          <p class="service-desc">
+            Diagnostic personnalisé, shampoing traitant, coupe aux ciseaux ou dégradé américain de précision, séchage et coiffage avec cire texturisante.
+          </p>
+          <ul class="service-features">
+            <li>Dégradé progressif au millimètre</li>
+            <li>Shampoing relaxant inclus</li>
+            <li>Finition coiffage structuré</li>
+          </ul>
+        </article>
+
+        <!-- Carte 2 -->
+        <article class="service-card">
+          <div class="service-card-header">
+            <span class="service-icon">🪒</span>
+            <span class="service-price">800 DA</span>
+          </div>
+          <h3 class="service-name">Taille de Barbe & Soin</h3>
+          <p class="service-desc">
+            Sculpture et traçage précis au coupe-choux, rituel de serviette chaude parfumée, application d'huile nourrissante et baume hydratant.
+          </p>
+          <ul class="service-features">
+            <li>Contours nets et symétriques</li>
+            <li>Serviette chaude délassante</li>
+            <li>Huile de soin fortifiante</li>
+          </ul>
+        </article>
+
+        <!-- Carte 3 -->
+        <article class="service-card highlight">
+          <div class="card-badge">Populaire</div>
+          <div class="service-card-header">
+            <span class="service-icon">🎨</span>
+            <span class="service-price">3 500 DA</span>
+          </div>
+          <h3 class="service-name">Coloration & Décoloration</h3>
+          <p class="service-desc">
+            Teinture de barbe, mèches tendance, décoloration contrôlée, patine personnalisée ou couverture naturelle des cheveux blancs.
+          </p>
+          <ul class="service-features">
+            <li>Produits sans ammoniaque agressif</li>
+            <li>Rendu naturel ou effet contrasté</li>
+            <li>Soin fixateur d'éclat offert</li>
+          </ul>
+        </article>
+
+        <!-- Carte 4 -->
+        <article class="service-card">
+          <div class="service-card-header">
+            <span class="service-icon">✨</span>
+            <span class="service-price">2 500 DA</span>
+          </div>
+          <h3 class="service-name">Soin Capillaire & Kératine</h3>
+          <p class="service-desc">
+            Traitement réparateur profond à la kératine et au botox capillaire. Restaure la vitalité, élimine les frisottis et apporte brillance intense.
+          </p>
+          <ul class="service-features">
+            <li>Nutrition intense des fibres</li>
+            <li>Massage crânien stimulant</li>
+            <li>Résultat soyeux longue durée</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Section Galerie (3 photos) -->
+  <section id="galerie" class="galerie-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Portfolio</span>
+        <h2 class="section-title">Notre Galerie Réalisations</h2>
+        <div class="section-divider"></div>
+        <p class="section-desc">Un aperçu de notre travail et de l'ambiance chaleureuse de notre salon à Béjaïa.</p>
+      </div>
+
+      <!-- Galerie conforme aux spécifications avec photo1, photo2, photo3 -->
+      <section class="galerie">
+        <div class="galerie-item">
+          <img src="images/photo1.jpg" alt="Coupe homme moderne dégradé soigné" loading="lazy">
+          <div class="galerie-caption">
+            <h4>Coupe Homme Moderne</h4>
+            <p>Dégradé à blanc & finitions au rasoir</p>
+          </div>
+        </div>
+
+        <div class="galerie-item">
+          <img src="images/photo2.jpg" alt="Intérieur du salon de coiffure à Béjaïa" loading="lazy">
+          <div class="galerie-caption">
+            <h4>Intérieur du Salon</h4>
+            <p>Espace moderne, spacieux et chaleureux</p>
+          </div>
+        </div>
+
+        <div class="galerie-item">
+          <img src="images/photo3.jpg" alt="Coloration et coiffage professionnel" loading="lazy">
+          <div class="galerie-caption">
+            <h4>Coloration & Brillance</h4>
+            <p>Nuances personnalisées & soin éclat</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </section>
+
+  <!-- 5. Section Contact, Horaires & Google Maps -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Nous Trouver & Réserver</span>
+        <h2 class="section-title">Horaires & Contact</h2>
+        <div class="section-divider"></div>
+        <p class="section-desc">Passez nous voir directement ou contactez-nous pour réserver votre créneau.</p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Informations pratiques -->
+        <div class="contact-info">
+          
+          <!-- Horaires -->
+          <div class="info-card">
+            <div class="info-icon">🕒</div>
+            <div class="info-body">
+              <h3>Horaires d'Ouverture</h3>
+              <ul class="schedule-list">
+                <li><span>Samedi – Mercredi :</span> <strong>09h00 – 20h30</strong></li>
+                <li><span>Jeudi :</span> <strong>09h00 – 21h00</strong></li>
+                <li><span>Vendredi :</span> <strong>14h30 – 21h00</strong></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Adresse -->
+          <div class="info-card">
+            <div class="info-icon">📍</div>
+            <div class="info-body">
+              <h3>Adresse du Salon</h3>
+              <p>Boulevard de la Liberté (proche Place Gueydon)</p>
+              <p>06000 Béjaïa Ville, Algérie</p>
+            </div>
+          </div>
+
+          <!-- Téléphone & WhatsApp -->
+          <div class="info-card">
+            <div class="info-icon">📞</div>
+            <div class="info-body">
+              <h3>Réservations Rapides</h3>
+              <p>Téléphone : <a href="tel:0550000000" class="contact-link"><strong>0550 00 00 00</strong></a></p>
+              <p>WhatsApp : <a href="https://wa.me/213550000000" class="contact-link" target="_blank" rel="noopener noreferrer"><strong>0550 00 00 00</strong></a></p>
+            </div>
+          </div>
+
+          <!-- Actions de contact direct -->
+          <div class="contact-actions">
+            <a href="tel:0550000000" class="btn btn-gold">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M6.62 10.79C8.06 13.62 10.38 15.94 13.21 17.38L15.41 15.18C15.69 14.9 16.08 14.82 16.43 14.93C17.55 15.3 18.75 15.5 20 15.5C20.55 15.5 21 15.95 21 16.5V20C21 20.55 20.55 21 20 21C10.61 21 3 13.39 3 4C3 3.45 3.45 3 4 3H7.5C8.05 3 8.5 3.45 8.5 4C8.5 5.25 8.7 6.45 9.07 7.57C9.18 7.92 9.1 8.31 8.82 8.59L6.62 10.79Z"/>
+              </svg>
+              Appeler le salon
+            </a>
+            <a href="https://wa.me/213550000000?text=Bonjour%2C%20je%20souhaite%20prendre%20un%20rendez-vous" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
+              Écrire sur WhatsApp
+            </a>
+          </div>
+
+        </div>
+
+        <!-- Carte Google Maps Intégrée -->
+        <div class="contact-map">
+          <div class="map-container">
+            <iframe 
+              src="https://maps.google.com/maps?q=Boulevard+de+la+Libert%C3%A9+B%C3%A9ja%C3%AFa+Algeria&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+              title="Carte interactive Google Maps - Salon L'Élégance Béjaïa"
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Boutons Flottants : Appeler & WhatsApp -->
+  <div class="floating-buttons" role="region" aria-label="Actions rapides de contact">
+    <!-- Bouton Téléphone Flottant -->
+    <a href="tel:0550000000" class="floating-btn call-btn" aria-label="Appeler le salon au 0550 00 00 00">
+      <svg viewBox="0 0 24 24" fill="currentColor">
+        <path d="M6.62 10.79C8.06 13.62 10.38 15.94 13.21 17.38L15.41 15.18C15.69 14.9 16.08 14.82 16.43 14.93C17.55 15.3 18.75 15.5 20 15.5C20.55 15.5 21 15.95 21 16.5V20C21 20.55 20.55 21 20 21C10.61 21 3 13.39 3 4C3 3.45 3.45 3 4 3H7.5C8.05 3 8.5 3.45 8.5 4C8.5 5.25 8.7 6.45 9.07 7.57C9.18 7.92 9.1 8.31 8.82 8.59L6.62 10.79Z"/>
+      </svg>
+      <span class="floating-tooltip">Appeler : 0550 00 00 00</span>
+    </a>
+
+    <!-- Bouton WhatsApp Flottant -->
+    <a href="https://wa.me/213550000000?text=Bonjour%2C%20je%20souhaite%20prendre%20un%20rendez-vous%20au%20Salon%20L'Élégance" class="floating-btn whatsapp-btn" target="_blank" rel="noopener noreferrer" aria-label="Discuter sur WhatsApp au 0550 00 00 00">
+      <svg viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 14.99 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M9.11 7.27C8.94 7.27 8.66 7.33 8.42 7.6C8.17 7.86 7.5 8.5 7.5 9.77C7.5 11.04 8.43 12.27 8.56 12.44C8.69 12.61 10.34 15.28 12.94 16.31C15.11 17.16 15.55 16.99 16.02 16.95C16.49 16.9 17.5 16.33 17.71 15.74C17.92 15.15 17.92 14.64 17.86 14.53C17.8 14.43 17.63 14.37 17.37 14.25C17.12 14.12 15.89 13.51 15.66 13.43C15.43 13.34 15.26 13.3 15.1 13.55C14.93 13.8 14.47 14.37 14.33 14.53C14.19 14.69 14.05 14.71 13.8 14.59C13.55 14.46 12.75 14.2 11.8 13.35C11.06 12.69 10.56 11.87 10.42 11.62C10.28 11.37 10.41 11.23 10.53 11.11C10.64 11 10.78 10.82 10.92 10.66C11.06 10.5 11.11 10.38 11.2 10.21C11.29 10.04 11.24 9.9 11.18 9.77C11.12 9.65 10.62 8.42 10.41 7.91C10.2 7.42 10 7.49 9.84 7.48C9.7 7.47 9.53 7.47 9.36 7.47L9.11 7.27Z"/>
+      </svg>
+      <span class="floating-tooltip">WhatsApp : 0550 00 00 00</span>
+    </a>
+  </div>
+
+  <!-- 7. Pied de page avec réseaux sociaux -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <img src="images/logo.png" alt="Logo Salon L'Élégance Béjaïa" class="footer-logo">
+        <p class="footer-tagline">L'art de la coiffure et du bien-être au centre-ville de Béjaïa.</p>
+      </div>
+
+      <!-- Liens Réseaux Sociaux -->
+      <div class="footer-social">
+        <h4>Suivez-nous</h4>
+        <div class="social-links">
+          <!-- Facebook -->
+          <a href="https://facebook.com" class="social-link facebook" target="_blank" rel="noopener noreferrer" aria-label="Page Facebook du Salon L'Élégance">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M22 12C22 6.48 17.52 2 12 2C6.48 2 2 6.48 2 12C2 16.84 5.44 20.87 10 21.8V15H7.5V12H10V9.5C10 7.01 11.49 5.63 13.77 5.63C14.86 5.63 16 5.82 16 5.82V8.29H14.73C13.5 8.29 13.11 9.06 13.11 9.84V12H15.89L15.45 15H13.11V21.8C17.66 20.87 22 16.84 22 12Z"/>
+            </svg>
+            <span>Facebook</span>
+          </a>
+
+          <!-- Instagram -->
+          <a href="https://instagram.com" class="social-link instagram" target="_blank" rel="noopener noreferrer" aria-label="Compte Instagram du Salon L'Élégance">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2.163C15.204 2.163 15.584 2.175 16.85 2.233C20.102 2.381 21.621 3.924 21.769 7.15C21.827 8.416 21.838 8.796 21.838 12C21.838 15.204 21.827 15.584 21.769 16.85C21.62 20.075 20.101 21.62 16.85 21.769C15.584 21.827 15.206 21.838 12 21.838C8.796 21.838 8.414 21.827 7.15 21.769C3.89 21.62 2.378 20.074 2.231 16.85C2.174 15.584 2.162 15.204 2.162 12C2.162 8.796 2.174 8.416 2.231 7.15C2.379 3.924 3.895 2.38 7.15 2.233C8.414 2.175 8.796 2.163 12 2.163ZM12 0C8.741 0 8.333 0.014 7.053 0.072C2.695 0.272 0.273 2.69 0.073 7.052C0.014 8.333 0 8.741 0 12C0 15.259 0.014 15.668 0.073 16.948C0.273 21.306 2.69 23.728 7.053 23.928C8.333 23.986 8.741 24 12 24C15.259 24 15.668 23.986 16.948 23.928C21.302 23.728 23.73 21.31 23.927 16.948C23.986 15.668 24 15.259 24 12C24 8.741 23.986 8.333 23.927 7.052C23.73 2.699 21.305 0.273 16.948 0.072C15.668 0.014 15.259 0 12 0ZM12 5.838C8.597 5.838 5.838 8.597 5.838 12C5.838 15.403 8.597 18.163 12 18.163C15.403 18.163 18.162 15.403 18.162 12C18.162 8.597 15.403 5.838 12 5.838ZM12 16C9.791 16 8 14.209 8 12C8 9.791 9.791 8 12 8C14.209 8 16 9.791 16 12C16 14.209 14.209 16 12 16ZM18.406 4.155C17.61 4.155 16.965 4.8 16.965 5.595C16.965 6.39 17.61 7.035 18.406 7.035C19.201 7.035 19.845 6.39 19.845 5.595C19.845 4.8 19.201 4.155 18.406 4.155Z"/>
+            </svg>
+            <span>Instagram</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 Salon L'Élégance Béjaïa Ville. Tous droits réservés.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script minimaliste sans framework pour le menu mobile et navigation fluide -->
+  <script>
+    const menuToggle = document.getElementById('menuToggle');
+    const navMenu = document.getElementById('navMenu');
+
+    if (menuToggle && navMenu) {
+      menuToggle.addEventListener('click', () => {
+        navMenu.classList.toggle('active');
+        menuToggle.classList.toggle('active');
+      });
+
+      document.querySelectorAll('.nav-link').forEach(link => {
+        link.addEventListener('click', () => {
+          navMenu.classList.remove('active');
+          menuToggle.classList.remove('active');
+        });
+      });
+    }
+  </script>
+</body>
+</html>
